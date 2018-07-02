@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marcoslin.solarfinal.app.Activities.P8Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:layout_marginTop="0dp"
+                android:text="Caracteríasticas del sistema"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/textButton"
+                android:background="@color/colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Potencia \ndemandada"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText11"
+                app:layout_constraintEnd_toStartOf="@+id/editText11"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="kW"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText11"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/editText11"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/textView23"
+                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="40dp"
+                android:text="Voltios"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="19dp"
+                android:text="Voltaje del \nsistema"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/spinner3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="Grados"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText17"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/editText17"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/textView32"
+                app:layout_constraintTop_toBottomOf="@+id/et81" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Orientacion"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText17"
+                app:layout_constraintEnd_toStartOf="@+id/editText17"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Potencia"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText12"
+                app:layout_constraintEnd_toStartOf="@+id/editText12"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="W/Módulo"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText12"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/textView34"
+                app:layout_constraintTop_toBottomOf="@+id/editText17" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:background="@color/colorAccent"
+                android:text="Caracteristicas de los módulos"
+                android:textAlignment="center"
+                android:textColor="@color/textButton"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinner3" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Longitud vertical \n del modulo"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et87"
+                app:layout_constraintEnd_toStartOf="@+id/editText14"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="m"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText14"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/textView38"
+                app:layout_constraintTop_toBottomOf="@+id/editText12" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Intensidad máxima"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText19"
+                app:layout_constraintEnd_toStartOf="@+id/editText19"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="Amperios"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText19"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/editText19"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/textView42"
+                app:layout_constraintTop_toBottomOf="@+id/et82" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="34dp"
+                android:text="Voltaje"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/spinner5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv85" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="34dp"
+                android:text="V/Batería"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv86" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="24dp"
+                android:text="Características de las baterías"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/textButton"
+                android:background="@color/colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText26" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Profundidad de \ndescarga"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText21"
+                app:layout_constraintEnd_toStartOf="@+id/editText21"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="%"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText21"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/editText21"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/textView47"
+                app:layout_constraintTop_toBottomOf="@+id/spinner5" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Capacidad"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText22"
+                app:layout_constraintEnd_toStartOf="@+id/editText22"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="Ah/Batería"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText22"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/editText22"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/textView49"
+                app:layout_constraintTop_toBottomOf="@+id/editText21" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="35dp"
+                android:text="Voltaje nominal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/spinner4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="35dp"
+                android:text="Voltios"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Precio"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText26"
+                app:layout_constraintEnd_toStartOf="@+id/editText26"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="€/Módulo"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText26"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/editText26"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="18dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/textView57"
+                app:layout_constraintTop_toBottomOf="@+id/spinner4" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Días de autonomia"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText24"
+                app:layout_constraintEnd_toStartOf="@+id/editText24"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="Días"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText24"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/editText24"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/textView53"
+                app:layout_constraintTop_toBottomOf="@+id/editText22" />
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Precio"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText25"
+                app:layout_constraintEnd_toStartOf="@+id/editText25"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="€/Batería"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText25"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/editText25"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/textView55"
+                app:layout_constraintTop_toBottomOf="@+id/editText24" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:onClick="cargadatos"
+                android:text="@string/siguiente"
+                android:background="@color/colorSecondaryDark"
+                android:textColor="@color/textButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText25" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="26dp"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/textView28"
+                app:layout_constraintTop_toBottomOf="@+id/editText11" />
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/textView51"
+                app:layout_constraintTop_toBottomOf="@+id/editText19" />
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="24dp"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/textView44"
+                app:layout_constraintTop_toBottomOf="@+id/et83" />
+
+            <TextView
+                android:id="@+id/tv81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Nombre"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et81"
+                app:layout_constraintEnd_toStartOf="@+id/et81"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/et81"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:inputType="text"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/tv82"
+                app:layout_constraintTop_toBottomOf="@+id/textView36" />
+            <TextView
+                android:id="@+id/tv82"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="-"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et81"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/tv83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Nº de filas de \nmódulos"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et82"
+                app:layout_constraintEnd_toStartOf="@+id/et82"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/et82"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/tv84"
+                app:layout_constraintTop_toBottomOf="@+id/et87" />
+
+            <TextView
+                android:id="@+id/tv84"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="-"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et82"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/tv85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Nombre"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et83"
+                app:layout_constraintEnd_toStartOf="@+id/et83"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/et83"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:inputType="text"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/tv86"
+                app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+            <TextView
+                android:id="@+id/tv86"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="-"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et83"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/tv87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Longitud horizontal \n del modulo"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editText14"
+                app:layout_constraintEnd_toStartOf="@+id/editText14"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/et87"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/tv88"
+                app:layout_constraintTop_toBottomOf="@+id/editText14" />
+
+            <TextView
+                android:id="@+id/tv88"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="m"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et87"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marcoslin.solarfinal.app.Activities.P7Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et75"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et74" />
+
+            <TextView
+                android:id="@+id/tv74"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Abril"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et74"
+                app:layout_constraintEnd_toStartOf="@+id/et74"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/et76"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et75" />
+
+            <EditText
+                android:id="@+id/et72"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et71" />
+
+            <EditText
+                android:id="@+id/et74"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et73" />
+
+            <TextView
+                android:id="@+id/tv70"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorAccent"
+                android:text="Consumo diario medio por mes  \n(kWhxdía)"
+                android:textAlignment="center"
+                android:textColor="@color/textButton"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv75"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Mayo"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et75"
+                app:layout_constraintEnd_toStartOf="@+id/et75"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/et71"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80dp"
+                android:layout_marginTop="24dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv70" />
+
+            <TextView
+                android:id="@+id/tv73"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Marzo"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et73"
+                app:layout_constraintEnd_toStartOf="@+id/et73"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/tv72"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Febrero"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et72"
+                app:layout_constraintEnd_toStartOf="@+id/et72"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/tv76"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Junio"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et76"
+                app:layout_constraintEnd_toStartOf="@+id/et76"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/et73"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et72" />
+
+            <TextView
+                android:id="@+id/tv71"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Enero"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et71"
+                app:layout_constraintEnd_toStartOf="@+id/et71"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/tv77"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Julio"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et77"
+                app:layout_constraintEnd_toStartOf="@+id/et77"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/et77"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et76" />
+
+            <TextView
+                android:id="@+id/tv78"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Agosto"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et78"
+                app:layout_constraintEnd_toStartOf="@+id/et78"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/et78"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et77" />
+
+            <TextView
+                android:id="@+id/tv79"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Septiembre"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et79"
+                app:layout_constraintEnd_toStartOf="@+id/et79"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/et79"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et78" />
+
+            <TextView
+                android:id="@+id/tv710"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Octubre"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et710"
+                app:layout_constraintEnd_toStartOf="@+id/et710"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/et710"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et79" />
+
+            <TextView
+                android:id="@+id/tv711"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Noviembre"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et711"
+                app:layout_constraintEnd_toStartOf="@+id/et711"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/et711"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et710" />
+
+            <TextView
+                android:id="@+id/tv712"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Diciembre"
+                android:textAlignment="center"
+                app:layout_constraintBaseline_toBaselineOf="@+id/et712"
+                app:layout_constraintEnd_toStartOf="@+id/et712"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/et712"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et711" />
+
+            <Button
+                android:id="@+id/btnp70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:background="@color/colorSecondaryDark"
+                android:onClick="siguiente"
+                android:text="siguiente"
+                android:textColor="@color/textButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et712" />
+
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

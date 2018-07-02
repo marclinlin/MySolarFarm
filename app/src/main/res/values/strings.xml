@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Solar Farm</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="texto_inicial"> \n\nMy Solar farm \n\n
+        Esta aplicación está diseñada para que con solo introducir unos parámetros necesarios para el diseño y los equipos que se quieran utilizar para una instalación fotovoltaica doméstica de autoconsumo, calcule el ahorro que proporcionaría e indica si sería una buena inversión dicha instalación fotovoltaica. También incluye un servicio de autolocalización que extrae los valores de latitud y de la altitud de la localización actual a través del GPS del dispositivo móvil para facilitar los cálculos del recurso solar.\n\n
+        My Solar Farm, también permite guardar y gestionar a través de una base de datos los resultados de todos los proyectos que se hayan calculado previamente en la aplicación.\n\n
+        Por Marcos Lin Lin\n linlin.marcos@gmail.com
+    </string>
+    <string name="nuevo_proyecto">Nuevo proyecto</string>
+    <string name="cargar_proyecto">Cargar proyecto</string>
+    <string name="nombre_del_proyecto">Nombre del proyecto</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">SolarFinal</string>
+    <string name="title_activity_p6">SolarFinal</string>
+    <string name="factor_de_simultaneidad">Factor de simultaneidad</string>
+    <string name="coeficiente_de_seguridad_para_las_bater_as">Coeficiente de seguridad \n para las baterías</string>
+    <string name="titleTextSize">20dp</string>
+    <string name="title_activity_p9_b">P9Activity_b</string>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.marcoslin.solarfinal.app.Activities.P6Activity" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorSecondaryDark"
+                android:onClick="cargadatos"
+                android:text="siguiente"
+                android:textColor="@color/textButton" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/button2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="19dp"
+                android:background="@color/colorSecondaryDark"
+                android:onClick="Autolocalizar"
+                android:text="Autolocalizar"
+                android:textColor="@color/textButton" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editText10"
+                android:layout_alignBottom="@+id/editText10"
+                android:layout_marginEnd="11dp"
+                android:layout_toStartOf="@+id/button3"
+                android:text="Latitud:" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/button3"
+                android:layout_alignStart="@+id/editText28"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView160"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/editText10"
+                android:layout_alignStart="@+id/textView18"
+                android:layout_marginBottom="21dp"
+                android:text="Altitud:" />
+
+            <EditText
+                android:id="@+id/editText28"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView160"
+                android:layout_alignBottom="@+id/textView160"
+                android:layout_toEndOf="@+id/textView18"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView160"
+                android:layout_marginStart="17dp"
+                android:layout_toEndOf="@+id/editText28"
+                android:text="Metros" />
+
+            <TextView
+                android:id="@+id/textView164"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView18"
+                android:layout_alignEnd="@+id/textView40"
+                android:text="Grados" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

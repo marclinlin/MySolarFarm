@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marcoslin.solarfinal.app.Activities.P14Activity">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Resumen"
+        android:textAlignment="center"
+        android:textColor="@color/textButton"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="197dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorSecondaryDark"
+        android:onClick="siguiente"
+        android:text="Enviar correo"
+        android:textColor="@color/textButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="350dp"
+        android:layout_height="246dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="197dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorSecondaryDark"
+        android:onClick="grafica"
+        android:text="Consumo vs Producción"
+        android:textColor="@color/textButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="197dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorSecondaryDark"
+        android:onClick="inicio"
+        android:text="Volver al inicio"
+        android:textColor="@color/textButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+</android.support.constraint.ConstraintLayout>
